@@ -1,0 +1,389 @@
+@font-face {
+    font-family: "Gentium-Basic";  
+    src: url("../assets/fonts/Gentium-Basic/GenBasR.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;   
+}
+
+@font-face {
+    font-family: "lato";  
+    src: url("../assets/fonts/lato/Lato-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;   
+}
+
+@font-face {
+    font-family: "open-sans";  
+    src: url("../assets/fonts/open-sans/OpenSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;   
+}
+
+@font-face {
+    font-family: "yeseva-one";  
+    src: url("../assets/fonts/yeseva-one/YesevaOne-Regular_v2.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;   
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -20px;
+}
+
+nav{
+    background-image: url(../assets/images/bg_menu.png);
+    background-repeat: repeat-x;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    padding: 50px 25px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 21pt;
+    color: white;
+}
+
+header{
+    background-image: url(../assets/images/section_background.jpg);
+    background-color: black;
+    width: 1600px;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+.menu-logo{
+    width:13%;
+}
+
+.menu-logo-text{
+    color: black;   
+}
+
+.active{
+    border-top: 3px solid rgba(255, 255, 255, 0.85);
+}
+
+.menu:hover{
+    border-top: 3px solid rgba(255, 255, 255, 0.85);
+}
+
+h1 {
+    font-size: 70pt;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: yeseva-one;
+}
+
+.buttons{
+    margin: 0 auto;
+    border-spacing: 30px;
+}
+
+.button{
+    width:230px;
+    height: 55px;
+    margin: auto;
+}
+
+.black-button{
+    background: rgba(0,0,0,0.6);
+}
+
+.white-button{
+    background: rgba(255,255,255,0.5);
+}
+
+.a-button{
+    width: 100%;
+    display: block;
+    font-size: 18pt;
+}
+
+.section{
+    width: 1600px;
+    height: 700px;
+}
+
+.about-text{
+    margin: 0 auto;
+    width: 500px;
+    color: black;
+}
+
+.about-content{
+    float: right;
+}
+
+.gradient{
+    background: radial-gradient(circle farthest-corner at 0px 0px, rgba(255,255,255,0.8), rgba(208,208,208,0.8));
+}
+
+.background-about{
+    background-image: url(../assets/images/about_background.png);
+}
+
+.table-about{
+    text-align: center;
+    height: 700px;
+    width: 100%; 
+    font-size: 16pt;
+}
+
+.header-about{
+    color: rgb(204,153,0);
+}
+
+.section-ingridient{
+    width: 1600px;
+    height: 758px;
+    background-image: url(../assets/images/ingridients_background.png);
+}
+
+.empty{
+    width: 50%;
+}
+
+.text-background{
+    width: 570px;
+    height: 600px;
+    background-image: url(../assets/images/text_background.png);
+}
+
+.food-icons{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(58,53,52);
+    top: 60px;
+}
+
+.header-ingridient{
+    position: relative;
+    top: 60px;
+    font-size:32pt;
+    color: white;
+}
+
+.text-ingridients{
+    position: relative;
+    top: 20px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    font-size: 16pt;
+}
+
+.menu-gradient{
+    background: radial-gradient(circle farthest-corner at 0px 0px, rgb(223,223,223), rgb(255,255,255));
+}
+
+.menu-background{
+    background-image: url(../assets/images/menu_background.png);
+}
+
+.border-top{
+    border-top: 1px solid rgb(200,159,45);
+}
+
+.menu-group{
+    text-align: center;
+    width: 500px;
+    float: left;
+    padding: 30px 0px 30px 260px;
+}
+
+.table-menu{
+    width: 100%;
+    font-size: 16pt;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 32pt;
+    color: rgb(204,153,0);
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 21pt;
+    color: rgb(204,153,0);
+}
+
+.section-menu{
+    width:1600px;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.divider{
+    padding-top: 20px;
+}
+
+.divider-text{
+    padding-top: 70px;
+}
+
+.menu-item{
+   border: 0px solid rgb(213,184,103);
+}
+
+.menu-item-featured{
+    border: 1px solid rgb(213,184,103);
+ }
+
+.special{
+    background: rgb(213,184,103);
+    width: 60px;
+    margin-left: 440px;
+    color: white;
+    visibility: hidden;
+}
+
+.featured{
+    visibility: visible; 
+}
+
+.section-reviews{
+    width:1600px;
+    height: 740px;
+    background-image: url(../assets/images/review_background.png);
+    
+}
+
+.text-rewiews{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width:770px;
+    height: 560px;
+    background-image: url(../assets/images/text_background.png);
+    color: white;
+    font-size: 25pt;
+    line-height: 45px;
+}
+
+.text-rewiews-article{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quotes{
+    font-size: 96pt;
+}
+
+.signature{
+    padding-top: 20px;
+    font-size: 18pt;
+}
+
+.table-form{
+    margin: 20px auto;
+    text-align: left;
+    border-spacing: 30px;
+}
+
+.reservation-images{
+    width: 50%;
+    text-align: right;
+}
+
+.reservation-image{
+    padding: 15px;
+}
+
+.reservation-text{
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.input{
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(225,226,226);
+    color: rgb(148, 148, 148);
+    
+}
+
+label{
+    color: rgb(204,153,0);
+}
+
+.button-form{
+    color: white;
+    background: rgb(201,161,49);
+    font-size: 16pt;   
+}
+
+.reservation{
+    padding-top: 60px;
+}
+
+footer{
+    background: rgb(25, 25, 25);
+    width: 1600px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer-content{
+    text-align: center;
+    color: white;
+    width: 400px;
+    height: 320px;
+    float: left;
+    padding-left: 70px;
+    font-size: 16pt;
+}
+
+h4{
+    font-size: 21pt;
+    margin: 0;
+    padding: 20px;
+}
+
+.icons{
+    padding-top: 60px;
+}
+
+.footer-text{
+    margin: 0 auto;
+    width: 420px;
+}
